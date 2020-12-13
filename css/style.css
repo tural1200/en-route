@@ -1,0 +1,263 @@
+.my-container1 {
+  background-color: #f7f1ec;
+  min-height: 2rem;
+}
+
+.my-container1 .my-container3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.my-container1 .my-container3 .left-side span {
+  font-weight: 600;
+}
+
+.my-container1 .my-container3 .left-side span img {
+  width: 15px;
+}
+
+.my-container1 .my-container3 .right-side span {
+  font-weight: 600;
+}
+
+.my-container1 .my-container3 .right-side span img {
+  width: 15px;
+}
+
+.my-container2 {
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.my-container2 .my-container4 {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.my-container2 .my-container4 .left-side {
+  margin-top: 15px;
+}
+
+.my-container2 .my-container4 .left-side span {
+  font-weight: 600;
+}
+
+.my-container2 .my-container4 .left-side span img {
+  width: 15px;
+}
+
+.my-container2 .my-container4 .middle-side {
+  margin-left: 8rem;
+}
+
+.my-container2 .my-container4 .middle-side h1 {
+  font-size: 40px;
+  font-family: "Abril Fatface", cursive;
+  color: #fbc3b2;
+}
+
+.my-container2 .my-container4 .right-side {
+  margin-top: 15px;
+}
+
+.my-container2 .my-container4 .right-side ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.my-container2 .my-container4 .right-side ul li {
+  font-weight: 600;
+  margin: 0px 10px;
+}
+
+.my-container2 .my-container4 .right-side ul li img {
+  width: 15px;
+}
+
+.my-container5 {
+  margin-top: 20px;
+}
+
+.my-container6 {
+  margin-top: 20px;
+}
+
+.my-container6 .row {
+  min-height: 40rem;
+}
+
+.my-container6 .row .col-md-4 .photo {
+  width: 100%;
+  height: 28rem;
+  background-image: url(/img/photo1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.my-container6 .row .col-md-8 .my-container7 {
+  margin-left: 2rem;
+}
+
+.my-container6 .row .col-md-8 .my-container7 .heading h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+
+.my-container6 .row .col-md-8 .my-container7 .heading span {
+  font-weight: 600;
+}
+
+.my-container6 .row .col-md-8 .my-container7 .details {
+  margin-top: 3rem;
+}
+
+.my-container6 .row .col-md-8 .my-container7 .details span {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.my-container6 .row .col-md-8 .my-container7 .details ul li {
+  font-size: 13px;
+  line-height: 1.5rem;
+}
+
+.my-container6 .row .col-md-8 .my-container7 .add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.my-container6 .row .col-md-8 .my-container7 .add .counter {
+  border: 1px solid #dddddd;
+  width: 70px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.my-container6 .row .col-md-8 .my-container7 .add .button {
+  margin-top: 10px;
+}
+
+.my-container6 .row .col-md-8 .my-container7 .add .button a {
+  text-decoration: none;
+  background-color: #f7f1ec;
+  color: black;
+  padding: 10px 15rem;
+}
+
+.my-container6 .row .col-md-8 .my-container7 .info {
+  margin-top: 3rem;
+}
+
+.my-container6 .row .col-md-8 .my-container7 .info .section {
+  margin: 10px;
+}
+
+.my-container6 .row .col-md-8 .my-container7 .info .section span {
+  margin: 10px 10px 10px 0px;
+}
+
+.my-container6 .row .col-md-8 .my-container7 .info .section span img {
+  width: 20px;
+}
+
+.my-container6 .row .col-md-8 .my-container7 .more {
+  margin: 20px 10px;
+  width: 17rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.my-container6 .row .col-md-8 .my-container7 .more .section1 a {
+  color: black;
+}
+
+.my-container6 .row .col-md-8 .my-container7 .more .section2 a {
+  color: black;
+}
+
+@media (max-width: 901px) {
+  .my-container1 .left-side span {
+    font-size: 10px;
+  }
+  .my-container2 .my-container4 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .my-container2 .my-container4 .middle-side {
+    margin: 0px;
+  }
+  .my-container6 .row .col-md-8 .my-container7 {
+    margin-left: 0px;
+  }
+  .my-container6 .row .col-md-8 .my-container7 .heading {
+    margin-top: 20px;
+  }
+  .my-container6 .row .col-md-8 .my-container7 .add .button a {
+    padding: 10px 60px;
+  }
+  .my-container6 .row .col-md-8 .my-container7 .info .section1 span {
+    font-size: 10px;
+  }
+  .my-container6 .row .col-md-8 .my-container7 .info .section2 span {
+    font-size: 13px;
+  }
+  .my-container6 .row .col-md-8 .my-container7 .info .section3 span {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .my-container6 .row .col-md-8 .my-container7 .add .button a {
+    padding: 10px 7rem !important;
+  }
+}
+
+@media (max-width: 447px) {
+  .my-container6 .row .col-md-8 .my-container7 .add .button a {
+    padding: 10px 3rem !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .my-container6 .row .col-md-8 .my-container7 .add .button a {
+    padding: 10px 1rem !important;
+  }
+  .my-container6 .row .col-md-8 .my-container7 .more {
+    width: 100%;
+  }
+  .my-container6 .row .col-md-8 .my-container7 .more a {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
